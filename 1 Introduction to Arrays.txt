@@ -1,0 +1,139 @@
+Introduction to Arrays
+An array is a collection of elements of the same data type stored in contiguous memory locations. Arrays allow you to store multiple items of the same type together, making it easy to manage and manipulate collections of data.
+
+Syntax:
+data_type array_name[array_size];
+
+Example:
+int numbers[5]; // Declares an array of 5 integers
+
+
+Arrays in C++
+Introduction to Arrays
+An array is a collection of elements of the same data type stored in contiguous memory locations. Arrays allow you to store multiple items of the same type together, making it easy to manage and manipulate collections of data.
+
+Syntax:
+cpp
+data_type array_name[array_size];
+
+Example:
+cpp
+int numbers[5]; // Declares an array of 5 integers
+
+Key Points:
+
+-Arrays have a fixed size that must be defined at the time of declaration.
+-Array indexing starts at 0.
+-Arrays can store primitive data types as well as user-defined types (like structures or objects).
+-Implementation of Dynamic Arrays
+-Dynamic arrays can change in size during runtime, which is not possible with standard static arrays. In C++, dynamic arrays can be implemented using pointers and the new keyword.
+
+Key Points:
+
+-Use new to allocate memory dynamically.
+-Use delete[] to free the allocated memory once it is no longer needed.
+-Dynamic arrays are more flexible as their size can be determined at runtime.
+
+#Common Array Operations:
+-Initialization:
+ int arr[5] = {1, 2, 3, 4, 5}; // Static array initialization
+
+-Accessing Elements:
+ int element = arr[2]; // Access the third element (index 2)
+
+-Modifying Elements:
+ arr[0] = 10; // Modify the first element
+
+-Traversing the Array:
+ for (int i = 0; i < 5; i++) {
+    std::cout << arr[i] << " ";
+ }
+ std::cout << std::endl;
+
+-Finding the Length of a Static Array:
+ int length = sizeof(arr) / sizeof(arr[0]);
+
+-Copying Arrays:
+ int arrCopy[5];
+ for (int i = 0; i < 5; i++) {
+    arrCopy[i] = arr[i];
+ }
+
+-Searching for an Element:
+ int key = 3;
+ bool found = false;
+ for (int i = 0; i < 5; i++) {
+    if (arr[i] == key) {
+        found = true;
+        break;
+     }
+ }
+
+-Sorting an Array:
+ Bubble Sort example:
+  void bubbleSort(int arr[], int n) {
+     for (int i = 0; i < n-1; i++) {
+         for (int j = 0; j < n-i-1; j++) {
+             if (arr[j] > arr[j+1]) {
+                 int temp = arr[j];
+                 arr[j] = arr[j+1];
+                 arr[j+1] = temp;
+             }
+         }
+     }
+ }
+
+ int main() {
+     int arr[] = {5, 1, 4, 2, 8};
+     int n = sizeof(arr)/sizeof(arr[0]);
+     bubbleSort(arr, n);
+     for (int i = 0; i < n; i++) {
+         std::cout << arr[i] << " ";
+      }
+     return 0;
+ }
+
+Summary
+Arrays are fundamental structures in C++ for managing collections of data. While static arrays have a fixed size, dynamic arrays offer flexibility by allowing size determination at runtime. Understanding basic operations on arrays is crucial for effective programming in C++.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
