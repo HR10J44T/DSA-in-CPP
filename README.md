@@ -1,130 +1,134 @@
-# Data Structures and Algorithms in C++
+# DSA in C++
 
-Welcome to the Data Structures and Algorithms (DSA) repository implemented in C++. This repository is intended to provide a comprehensive collection of commonly used data structures and algorithms, with clear and concise C++ implementations.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
-## Introduction
-
-This repository contains a variety of data structures (like arrays, linked lists, stacks, queues, trees, graphs, hash tables, etc.) and algorithms (such as sorting, searching, dynamic programming, etc.) implemented in C++. Each implementation includes detailed comments and explanations to help you understand the logic behind them.
-
-## Features
-
-- Comprehensive collection of data structures and algorithms.
-- Well-documented code with comments explaining each step.
-- Examples and test cases for each data structure and algorithm.
-- Easy-to-follow structure and naming conventions.
-- Regular updates and improvements.
-
-## Getting Started
-
-To get started with this repository, you can clone it to your local machine using the following command:
-
-```sh
-git clone https://github.com/HR10J44T/dsa-in-cpp.git
-
-Prerequisites
-Make sure you have the following installed on your machine:
-
-A C++ compiler (GCC, Clang, MSVC, etc.)
-Git
-Installation
-Once you have cloned the repository, navigate to the project directory:
-
-```sh
-cd dsa-in-cpp
-
-Compile any of the C++ files using your preferred C++ compiler. For example:
-
-```sh
-g++ -o binary_tree binary_tree.cpp
-
-
-Sure, here's a template for a README file for a Data Structures and Algorithms (DSA) repository in C++ on GitHub:
-
-markdown
-Copy code
-# Data Structures and Algorithms in C++
-
-Welcome to the Data Structures and Algorithms (DSA) repository implemented in C++. This repository is intended to provide a comprehensive collection of commonly used data structures and algorithms, with clear and concise C++ implementations.
+Welcome to my **Data Structures and Algorithms (DSA) in C++** repository! This repository is a comprehensive collection of data structures and algorithms implemented in C++. Whether you're a student, a coding enthusiast, or a professional developer, this repository is designed to help you understand and implement DSA concepts effectively.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+1. [Introduction](#introduction)
+2. [Data Structures](#data-structures)
+    - [Arrays](#arrays)
+    - [Linked Lists](#linked-lists)
+    - [Stacks](#stacks)
+    - [Queues](#queues)
+    - [Trees](#trees)
+    - [Graphs](#graphs)
+    - [Heaps](#heaps)
+    - [Hash Tables](#hash-tables)
+3. [Algorithms](#algorithms)
+    - [Sorting](#sorting)
+    - [Searching](#searching)
+    - [Graph Algorithms](#graph-algorithms)
+    - [Dynamic Programming](#dynamic-programming)
+    - [Greedy Algorithms](#greedy-algorithms)
+    - [Backtracking](#backtracking)
+4. [Contributing](#contributing)
+5. [License](#license)
+6. [Contact](#contact)
+7. [Acknowledgements](#acknowledgements)
 
 ## Introduction
 
-This repository contains a variety of data structures (like arrays, linked lists, stacks, queues, trees, graphs, hash tables, etc.) and algorithms (such as sorting, searching, dynamic programming, etc.) implemented in C++. Each implementation includes detailed comments and explanations to help you understand the logic behind them.
+This repository aims to cover a wide range of data structures and algorithms in C++. Each implementation is well-documented with clear explanations of the concepts, time and space complexities, and sample test cases. My goal is to make learning DSA accessible and enjoyable for everyone.
 
-## Features
+## Data Structures
 
-- Comprehensive collection of data structures and algorithms.
-- Well-documented code with comments explaining each step.
-- Examples and test cases for each data structure and algorithm.
-- Easy-to-follow structure and naming conventions.
-- Regular updates and improvements.
+### Arrays
+- Introduction to Arrays
+- Implementation of Dynamic Arrays
+- Common Array Operations
 
-## Getting Started
+### Linked Lists
+- Singly Linked List
+- Doubly Linked List
+- Circular Linked List
 
-To get started with this repository, you can clone it to your local machine using the following command:
+### Stacks
+- Stack using Arrays
+- Stack using Linked Lists
 
-```sh
-git clone https://github.com/your-username/dsa-in-cpp.git
-Prerequisites
-Make sure you have the following installed on your machine:
+### Queues
+- Queue using Arrays
+- Queue using Linked Lists
+- Circular Queue
+- Priority Queue
 
-A C++ compiler (GCC, Clang, MSVC, etc.)
-Git
-Installation
-Once you have cloned the repository, navigate to the project directory:
+### Trees
+- Binary Tree
+- Binary Search Tree (BST)
+- AVL Tree
+- Red-Black Tree
+- Segment Tree
 
-```sh
-Copy code
-cd dsa-in-cpp
-Compile any of the C++ files using your preferred C++ compiler. For example:
+### Graphs
+- Graph Representations (Adjacency Matrix, Adjacency List)
+- Depth First Search (DFS)
+- Breadth First Search (BFS)
+- Shortest Path Algorithms (Dijkstra, Bellman-Ford)
+- Minimum Spanning Tree (Kruskal, Prim)
 
-```sh
-Copy code
-g++ -o binary_tree binary_tree.cpp
+### Heaps
+- Min Heap
+- Max Heap
+- Heap Sort
 
-Usage
-Each data structure and algorithm is implemented in its own file. You can run the compiled executables to see how they work. For example, to run the binary tree implementation:
-```sh
-./binary_tree
+### Hash Tables
+- Hash Function
+- Collision Handling (Chaining, Open Addressing)
 
-Contributing
-Contributions are welcome! If you have any improvements, bug fixes, or new algorithms to add, please follow these steps:
-1.Fork the repository.
-2.Create a new branch ( * git checkout -b feature-branch).
-3.Make your changes.
-4.Commit your changes ( * git commit -m 'Add some feature 'N).
-5.Push to the branch C git push origin feature-branch).
-6.Open a pull request.
+## Algorithms
 
-Please ensure your code follows the style and conventions used in this repository and includes appropriate comments and documentation.
+### Sorting
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Merge Sort
+- Quick Sort
+- Heap Sort
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+### Searching
+- Linear Search
+- Binary Search
+- Interpolation Search
 
-Contact
-If you have any questions or suggestions, feel free to open an issue or contact me directly at hr10j44t@gmail.com
+### Graph Algorithms
+- Topological Sort
+- Strongly Connected Components
+- Floyd-Warshall Algorithm
 
-Happy coding!
+### Dynamic Programming
+- Fibonacci Series
+- Longest Common Subsequence
+- Knapsack Problem
+
+### Greedy Algorithms
+- Activity Selection
+- Huffman Coding
+
+### Backtracking
+- N-Queens Problem
+- Sudoku Solver
+
+## Contributing
+
+I welcome contributions from the community! If you have a new data structure or algorithm to add, or if you want to improve the existing code, please feel free to open a pull request. For major changes, please open an issue first to discuss what you would like to change.
+
+### Steps to Contribute:
+1. Fork the repository.
+2. Clone your forked repository.
+3. Create a new branch for your changes.
+4. Make your changes and commit them with descriptive messages.
+5. Push your changes to your forked repository.
+6. Open a pull request to the main repository.
+
+## License
+
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+## Contact
+
+If you have any questions or suggestions, feel free to open an issue or contact me directly at [hr10j44t@gmail.com](mailto:hr10j44t@gmail.com).
+
+## Acknowledgements
+
+I would like to thank all the contributors and the open-source community for their valuable inputs and support. Happy coding!
+
